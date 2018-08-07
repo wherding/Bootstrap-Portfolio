@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="E:/code/BootCamp/old/exampleFromNick/loading-bar/loading-bar.css">
 
 </head>
-<body>
+<body class="container bg-dark">
     
 <!--begin bootstrap Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,9 +37,18 @@
   </nav>
 <!--end bootstrap Navbar -->
 
-    <!--  begin bootstrap form-->
+<div class="container bg-light">
+<!--  begin bootstrap form-->
+
+
 
     <form>
+        <div class="row">
+            <h1 class="col-lg-6 col-md-6 col-sm-6">
+                Contact
+            </h1>
+
+        </div>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -53,9 +62,17 @@
           <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
+        <div>
+            <label for="Message"> Message </label>
+            <textarea rows="5" class="form-control"  placeholder="Tell me how you're feeling: ">
+                </textarea>
+                 
+        </div>
+        <br>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <!-- end bootstrap form -->
+    </div>
 
       <!-- laoding bar-->
       <div class="ldBar"
