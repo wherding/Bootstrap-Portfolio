@@ -6,39 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="E:/code/BootCamp/old/exampleFromNick/loading-bar/loading-bar.css">
+   
 
 </head>
-<body class="container bg-dark">
-    
-<!--begin bootstrap Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="background-color: aqua; color: white">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarNav">
-        <!-- ml-auto on the ul moves it to the right. i guess the div its in takes up the whole navbar.-->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active ">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-<!--end bootstrap Navbar -->
+<body onload="includeHTML()" class="container bg-dark">
 
 <div class="container bg-light">
 <!--  begin bootstrap form-->
+<div header="header.html"></div>
 
 
 
@@ -74,15 +49,9 @@
       <!-- end bootstrap form -->
     </div>
 
-      <!-- laoding bar-->
-      <div class="ldBar"
-  style="width:100%;height:60px",
-  data-stroke="data:ldbar/res,gradient(0,1,#9df,#9fd,#df9,#fd9)",
-  data-path="M10 20Q20 15 30 20Q40 25 50 20Q60 15 70 20Q80 25 90 20"
-></div>
-<!-- end laoding bar-->
-<script src="E:/code/BootCamp/old/exampleFromNick/loading-bar/loading-bar.min.js">
+      
 
 </script>
+<script src="include.js"></script>
 </body>
 </html>

@@ -17,40 +17,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
 </head>
-<body>
-    <!--begin bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html" style="background-color: aqua; color: white">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <!-- ml-auto on the ul moves it to the right. i guess the div its in takes up the whole navbar.-->
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active ">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item" >
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    <!--end bootstrap Navbar -->
-    <div class="container bg-light">
-        <!-- <div class="row">
-            <H1>
-                William Herding
-            </H1>
-            
+<body onload="includeHTML()"  class="container bg-dark">
 
-        </div> -->
+  
+
+    <div class="container bg-light">
+      <!-- begin js inserted header -->
+      <div header="header.html"></div> 
+      <!-- end js inserted header -->
         <H1>
                 William Herding
             </H1>
@@ -58,15 +32,15 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                     <img src="./assets/images/1.jpg" class="img-responsive col-lg-5 col-sm-5 inline-block float-left" alt="Responsive image">
-                    <p class="col-sm-6 col-lg-7 float-left">
+                    <p class="col-sm-12 col-lg-7 float-left">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium enim ac malesuada tristique. Curabitur lobortis mauris turpis, vel molestie nisi efficitur euismod. Curabitur sollicitudin nisl non condimentum mollis. Praesent magna risus, sollicitudin eget scelerisque in, pretium ut magna. Fusce sed ultrices eros. Cras finibus quam eget sapien volutpat elementum. Praesent vulputate tortor in condimentum placerat. Ut sapien mi, fringilla non risus scelerisque, luctus fringilla felis. Aenean vestibulum erat lacus, ut ornare magna feugiat vel. Quisque elit massa, convallis sed lorem sit amet, blandit condimentum lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada 
     
                     </p>
-                    <p class="col-sm-6 col-md-12 ">
+                    <p class="col-sm-12 col-md-12 ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium enim ac malesuada tristique. Curabitur lobortis mauris turpis, vel molestie nisi efficitur euismod. Curabitur sollicitudin nisl non condimentum mollis. Praesent magna risus, sollicitudin eget scelerisque in, pretium ut magna. Fusce sed ultrices eros. Cras finibus quam eget sapien volutpat elementum. Praesent vulputate tortor in condimentum placerat. Ut sapien mi, fringilla non risus scelerisque, luctus fringilla felis. Aenean vestibulum erat lacus, ut ornare magna feugiat vel. Quisque elit massa, convallis sed lorem sit amet, blandit condimentum lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada 
 
                 </p>
-                <p class="col-sm-6 col-md-12 ">
+                <p class="col-sm-12 col-md-12 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium enim ac malesuada tristique. Curabitur lobortis mauris turpis, vel molestie nisi efficitur euismod. Curabitur sollicitudin nisl non condimentum mollis. Praesent magna risus, sollicitudin eget scelerisque in, pretium ut magna. Fusce sed ultrices eros. Cras finibus quam eget sapien volutpat elementum. Praesent vulputate tortor in condimentum placerat. Ut sapien mi, fringilla non risus scelerisque, luctus fringilla felis. Aenean vestibulum erat lacus, ut ornare magna feugiat vel. Quisque elit massa, convallis sed lorem sit amet, blandit condimentum lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada 
 
             </p>
@@ -78,7 +52,8 @@
         
 
     </div>
-        <script type="text/javascript" src="script.js"></script>           
+        <script type="text/javascript" src="script.js"></script>
+        <script src="include.js"></script>           
 </body>
 
 </html>
