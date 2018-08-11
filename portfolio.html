@@ -7,9 +7,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body onload="includeHTML()" class="container bg-dark">
+<body onload="includeHTML(), includeFooter()" class="container bg-dark">
 
-        <div class="container bg-light">
+        <div  class="container bg-light">
         <!--  begin bootstrap form-->
         <div header="header.html"></div>
         <div class="container bg-light">
@@ -19,8 +19,8 @@
             <hr>
             <div class="row">
                 
-            <div class="col-md-6">
-                    <div class="card" style="width:500px">
+            <div class="px-2 col-md-12 col-sm-12 col-12 col-lg-6">
+                    <div class="card" style="width:100%">
                             <img class="card-img-top" src="./assets/images/1.jpg" alt="Card image">
                             <div class="card-img-overlay align-bottom" style="color: white;">
                               <h4 class="card-title">John Doe</h4>
@@ -32,8 +32,8 @@
 
             </div>
             
-            <div class="col-md-6">
-                    <div class="card" style="width:500px">
+            <div class="px-2 col-md-12 col-sm-12 col-12 col-lg-6">
+                    <div class="card" style="width:100%">
                             <img class="card-img-top" src="./assets/images/COD.jpg" alt="Card image">
                             <div class="card-img-overlay align-bottom" style="color: white;">
                               <h4 class="card-title">John Doe</h4>
@@ -90,7 +90,7 @@
                 
                             </div>
                             
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-12">
                                     <div class="card" style="width:500px">
                                             <img class="card-img-top" src="./assets/images/COD.jpg" alt="Card image">
                                             <div class="card-img-overlay align-bottom" style="color: white;">
@@ -102,7 +102,8 @@
                         
                 
                             </div>
-                            </div>
+
+                        </div>
             
 
             
@@ -113,12 +114,11 @@
 
         </div>
         </div>
-        <footer class="fixed-bottom bg-light text-center" >
-            <div class="container" style=""> 
-            <span class="text-muted ">Place sticky footer content here.</span>
+<div  footer="footer.html">
 
-            </div>
-        </footer>
+</div>
         <script src="include.js"></script>
+        <script src="includeFooter.js"></script>
+
 </body>
 </html>
